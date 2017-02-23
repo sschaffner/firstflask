@@ -11,7 +11,7 @@ port = int(os.getenv('PORT', '3000'))
 # our base route which just returns a string
 @app.route('/')
 def hello_world():
-    return 'Congratulations! Welcome to the Swisscom Application Cloud.'
+    return 'Congratulations! Welcome to my first flask app.'
 
 # start the app
 if __name__ == '__main__':
